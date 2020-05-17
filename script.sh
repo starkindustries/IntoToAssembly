@@ -6,7 +6,7 @@ echo "#args: $#"
 # Verify that at least one argument is given
 if [ $# != 1 ]
 then
-	echo "Expected filename argument"
+	echo "Error: No filename argument given."
 else
 	echo "Running $0.."
 	echo "Compiling: $1"
